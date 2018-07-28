@@ -1,0 +1,5 @@
+n1 = int(input('digite o primeiro número:'))
+n2 = int(input('digite o segundo número:'))
+n3 = int(input('digite o terceiro número:'))
+print('Maior: {}'.format(max(n1, n2, n3)))
+print('Menor: {}'.format(min(n1, n2, n3)))

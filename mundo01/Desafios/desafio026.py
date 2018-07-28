@@ -1,0 +1,5 @@
+nome = str(input('Entre com seu nome por favor: ')).strip()
+#print(nome.upper())
+print('A letra A aparece no seu nome: {}'.format(nome.upper().count('A')) + ' vez(es)')
+print('A posição da primeira letra é: {}'.format(nome.upper().find('A')+1) + ' posição')
+print('A ultima posição da letra A esta na posição {}'.format(nome.upper().rfind('A')-1))
