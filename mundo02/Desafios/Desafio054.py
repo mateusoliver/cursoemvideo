@@ -1,5 +1,5 @@
 from datetime import date
-maior = 0
+maior = 0 #iniciando a variavel com 0 pois vou incrementar ela depois
 menor = 0
 ano_atual = (date.today().year)
 for n in range (0,7):
