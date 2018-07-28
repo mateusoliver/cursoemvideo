@@ -2,10 +2,10 @@ valor_casa = float(input('Entre com o valor da casa: R$'))
 salario = float(input('Entre com o salário do comprador: '))
 anos = int(input('Em quantos anos ele irá pagar a casa? '))
 prestacao = valor_casa / (anos * 12)
-salario_min = salario - (salario * 30/100)
-print('Salario menos de 30%: R$' , salario_min)
-if salario_min <= prestacao:
+
+print('Seu salário menos 30%: R$ {}'.format(salario - (salario * 30/100)))
+if (salario - (salario * 30/100)) <= prestacao:
     print('Você não esta em condições de comprar a casa.')
 else:
     print('Aceito com sucesso! ')
-print('O valor da prestação será de {:.2f}'.format(prestacao))
+print('Você irá pagar {} parcelas de R$ {:.2f} reais'.format(anos*12,prestacao))
