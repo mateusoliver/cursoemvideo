@@ -1,5 +1,5 @@
 n = int(input('Digite um número: '))
-divisoes = 0
+divisoes = 0 # contador
 for c in range(1, n + 1):
     if n % c == 0:
         divisoes += 1
