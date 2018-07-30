@@ -1,5 +1,5 @@
 from datetime import date
-maior = 0 #iniciando a variavel com 0 pois vou incrementar ela depois
+maior = 0
 menor = 0
 ano_atual = (date.today().year)
 for n in range (0,7):
@@ -10,5 +10,5 @@ for n in range (0,7):
     else:
         print('você é de menor, tu só tem {} anos pirralho!!'.format(ano_atual-ano))
         menor += 1
-print('{} pessoas são de maior!'.format(maior))
-print('{} pessoas são de menor!'.format(menor))
+print('| {} | pessoas são de maior!'.format(maior))
+print('| {} | pessoas são de menor!'.format(menor))
