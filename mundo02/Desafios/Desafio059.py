@@ -10,7 +10,7 @@ while resp != 'S':
     print('Digite [4]-Digitar novos valores!')
     print('Digite [5]-Sair do programa!')
     menu = int(input('Digite o que deseja: '))
-    if menu == 1:
+    if menu == 1: 
         print('A soma dos valores é: {}'.format(num01+num02))
     if menu == 2:
         print('A multiplicação dos valores é = {}!'.format(num02*num01))
