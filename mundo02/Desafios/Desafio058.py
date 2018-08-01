@@ -10,6 +10,7 @@ while pcnum != eunum:
     eunum = int(input('Tente advinhar o número que o computador pensou. Digite: '))
     if pcnum != eunum:
         cont += 1
+        print('O pc pensou no número {}'.format(pcnum))
         print('tente novamente!')
     elif pcnum == eunum:
         print('Errou {} vezes, até acertar!!'.format(cont))
