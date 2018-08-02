@@ -20,7 +20,8 @@ while resp != 'S':
         else:
             print('O número {} é maior do que o número {}.'.format(num02,num01))
     if menu == 4:
-
+        print('Solicitação de incerir novos valores!!')
+        pass
     if menu == 5:
         print('Programa finalizado com sucesso! Volte sempre!')
         exit()
