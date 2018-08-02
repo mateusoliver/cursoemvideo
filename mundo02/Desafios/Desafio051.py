@@ -9,5 +9,5 @@ print('Acabou!')
 
 # a1    -> primeira razão da PA
 # r     -> razão da PA
-# a10   -> formula da PA
+# a10   -> Formula da PA
 # an    -> Ultimo termo
