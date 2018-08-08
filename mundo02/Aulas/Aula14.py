@@ -15,10 +15,10 @@ while c <=10:
 print('FIM')'''
 
 
-n = 1
+'''n = 1
 while n != 0:
     n = int(input('Digite um valor: '))
-print('FIM')
+print('FIM')'''
 
 
 '''r = 'S'
