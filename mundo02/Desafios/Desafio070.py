@@ -1,4 +1,5 @@
-total_gastos = 0
+upmil = total_gastos = 0
+p_barato = 9999999
 r = 'S'
 while r == 'S':
     nome = str(input('Nome do produto: '))
@@ -8,11 +9,18 @@ while r == 'S':
     # 2 - CONTABILIZANDO PRODUTOS ACIMA DE 1 MIL REAIS
     if preco > 1000:
         upmil = upmil + 1
-
-    r == str(input('Deseja continuar? [S/N]'))
-print(f'O total de gastos será de R${total_gastos}')
-print(f'{upmil} produtos custam mais de R$1000')
-#print(f'{p_barato} é o produto mais barato')
+    # 3 - MOSTRAR O NOME DO PRODUTO MAIS BARATO
+    if preco < p_barato:
+        p_barato = preco
+        nome_p_barato = nome
+    r = str(input('Deseja continuar? [S/N]')).upper()
+print('-'*20)
+print(f'O total de gastos será de R${total_gastos}! ')
+print('-'*20)
+print(f'{upmil} produto(s) custa(m) mais de R$1000! ')
+print('-'*20)
+print(f'{nome_p_barato} é o produto mais barato que custa R${p_barato} ')
+print('-'*20)
 
 
 
